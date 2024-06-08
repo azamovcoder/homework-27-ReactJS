@@ -1,0 +1,49 @@
+.users__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.users__card {
+    width: 280px;
+    padding: 20px;
+    box-shadow: 0 0 8px #0002, 15px 15px 15px #0001;
+    line-height: 1.6;
+    border-radius: 10px;
+}
+.users__card img {
+    width: 100%;
+    object-fit: cover;
+
+}
+.users__card h2, p {
+    color: dodgerblue;
+}
+.users__card button {
+    padding: 6px 20px;
+    background: crimson;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: 0.4s;
+   
+}
+.users__card button:hover{
+    transform: scale(1.1);
+}
+
+.users__card button:last-child {
+    margin-left: 10px;
+}
+.users__card button:active {
+    opacity: 0.7;
+}
+.users__card__buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.users__card__edit-btn{
+background: dodgerblue !important;
+}
